@@ -60,7 +60,7 @@ fs.readdir(__dirname + "/bot/commands/", (err, files) => {
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("833427164124282930");
+  let channel = client.channels.cache.get("904258475494887465");
   let embed = new MessageEmbed().setColor("#FC00FF")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -74,7 +74,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("833427164124282930");
+  let channel = client.channels.cache.get("904258476207919115");
   let embed = new MessageEmbed()
   .setColor("#FC00FF")
   .setTimestamp()
