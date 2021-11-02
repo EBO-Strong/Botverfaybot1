@@ -6,7 +6,7 @@ const ms = require("ms");
 module.exports = {
   name: "set-azkar-time",
   cooldown: 5,
-  aliases: ["set-time", "set-timer"],
+  aliases: ["settime", "settimer"],
 
   run: async function(client, message) {
     var args = message.content.split(" ");
