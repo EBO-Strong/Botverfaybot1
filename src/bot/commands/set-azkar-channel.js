@@ -7,7 +7,7 @@ const ms = require("ms");
 module.exports = {
   name: "set-room",
   cooldown: 5,
-  aliases: ["set-channel", "set-azkar", "set-azkar-channel"],
+  aliases: ["set-channel", "setazkar", "setazkar channel"],
 
   run: async function(client, message) {
     var args = message.content.split(" ");
