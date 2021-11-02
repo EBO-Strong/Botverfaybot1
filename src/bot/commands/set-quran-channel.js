@@ -4,9 +4,9 @@ const azkarVoicesSchema = require("../../db/schema/azkarVoices");
 const ytdl = require("ytdl-core");
 
 module.exports = {
-  name: "set-quran",
+  name: "setquran",
   cooldown: 5,
-  aliases: ["set-quran-channel", "set-quran-channel"],
+  aliases: ["setquran-channel", "setquran-channel"],
 
   run: async function(client, message) {
     var args = message.content.split(" ");
