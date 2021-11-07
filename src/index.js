@@ -13,7 +13,7 @@ client.commands = new Collection();
 
     client.on("ready", () => {
     function randomStatus() {
-        let status = [`${client.guilds.cache.size} Servers`, `بسم الله الرحمن الرحيم`, `a!help`, `a!quran`]
+        let status = [`${client.guilds.cache.size} Servers`, `بسم الله الرحمن الرحيم`, ` اللَّهُــمَّ صَلِّ وَسَــلِّم وَبَارِك علــىﷺمُحمَّدﷺ`, `a!help`, `a!quran`]
         let rstatus = Math.floor(Math.random() * status.length);
         client.user.setActivity(status[rstatus], {type: "PLAYING"});    
     }; setInterval(randomStatus, 3000)
@@ -74,7 +74,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("904258476207919115");
+  let channel = client.channels.cache.get("904258477415882762");
   let embed = new MessageEmbed()
   .setColor("#FC00FF")
   .setTimestamp()
