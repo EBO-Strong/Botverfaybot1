@@ -15,8 +15,8 @@ module.exports = {
     message.channel.send(
       new MessageEmbed()
         .setAuthor(
-          "General Commands🕌",
-          "https://athkarapp.com/images/athkarLogo.png"
+          "General Commands",
+          ""
         )
         .setThumbnail(client.user.avatarURL({ dynaimc: true }))
         .setColor(0x2f3136)
@@ -25,26 +25,26 @@ module.exports = {
           client.user.avatarURL({ dynaimc: true })
         ).setDescription(`
 **Info**
-> 🕌 \`${prefix}help\`
-> 🕌 \`${prefix}ping\`
+>  \`${prefix}help\`
+>  \`${prefix}ping\`
 
 **Azkar**
-> 🕌 \`${prefix}set-azkar-channel\`
-> 🕌 \`${prefix}set-azkar-embed\`
-> 🕌 \`${prefix}set-azkar-toggle\`
-> 🕌 \`${prefix}morning\`
-> 🕌 \`${prefix}evening\`
-> 🕌 \`${prefix}mos7f\`
+>  \`${prefix}set-azkar-channel\`
+>  \`${prefix}set-azkar-embed\`
+>  \`${prefix}set-azkar-toggle\`
+>  \`${prefix}morning\`
+>  \`${prefix}evening\`
+>  \`${prefix}mos7f\`
 
 **Quran**
-> 🕌 \`${prefix}set-quran-channel\`
-> 🕌 \`${prefix}set-quran-toggle\`
-> 🕌 \`${prefix}quran\`
+>  \`${prefix}set-quran-channel\`
+>  \`${prefix}set-quran-toggle\`
+>  \`${prefix}quran\`
 
 **Perfix bot in the server**: \`${prefix}\`
 
 **Links:**
-[ InviteBot ](https://discord.com/api/oauth2/authorize?client_id=758813926472941578&permissions=0&scope=bot) - [ ServerSupport ](https://discord.gg/rxjENhqZJD)
+[ InviteBot ](https://discord.com/api/oauth2/authorize?client_id=760841024019890257&permissions=8&scope=bot) - [ ServerSupport ](https://discord.gg/nu3p4cMcwb)
 `)
 
     );
